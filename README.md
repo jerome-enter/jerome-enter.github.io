@@ -11,6 +11,12 @@ feedback: jerome.enter@gmail.com
 
 #privacy policy
 
+Updated Nov 21, 2024
+
+Health Kit Integration
+
+Our app integrates with HealthKit to provide features such as tracking your heart rate, calories burned, and other fitness metrics. This data is used solely for improving your experience within the app and is never shared with third parties without your explicit consent. We take your privacy seriously and handle your health data in compliance with Apple’s guidelines and applicable privacy laws.
+
 Updated Sep 9, 2024
 
 This privacy policy governs your use of Matchup software (the "Software").
