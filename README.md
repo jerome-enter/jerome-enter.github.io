@@ -4,6 +4,9 @@ Welcome to Jerome Enter's apps collection. We develop innovative mobile applicat
 
 ## Our Apps
 
+### [러브 슈터 (LoveShooter)](./loveshooter/loveshooter.md)
+A portrait 3D game where the otter cupid 뺘뿅이 delivers love. Read confession stories, judge their sincerity, and aim heart or hate arrows. Play the browser demo or read the [Privacy Policy / 개인정보처리방침](./loveshooter/privacy.md).
+
 ### [Match Up](./matchup/matchup.md)
 A comprehensive table tennis scoring app with Apple Watch integration. Track your matches, monitor your fitness metrics, and improve your game with detailed statistics.
 
