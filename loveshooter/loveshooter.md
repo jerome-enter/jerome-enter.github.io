@@ -11,12 +11,9 @@
 - **추억 앨범**: 게임 속에서 이어준 커플의 기념사진과 선물 후일담을 모읍니다. 실제 이용자의 사진을 촬영하거나 업로드하는 기능은 없습니다.
 - **선택형 광고 보상**: Android·iOS 앱에서는 보상형 광고 시청을 선택해 아이템을 충전할 수 있습니다.
 
-## 플레이
+## 앱 다운로드
 
-[브라우저 체험판 플레이](https://jerome-love-shooter.kyapyapyong.chatgpt.site/)
-
-Android·iOS 앱은 출시 준비 중입니다. 스토어 다운로드 링크는 출시 후 이 페이지에 추가합니다.
-브라우저 체험판에서는 AdMob 광고를 표시하지 않습니다.
+Android·iOS 앱은 무료로 출시할 예정입니다. 스토어 다운로드 링크는 출시 후 이 페이지에 추가합니다.
 
 ## 개인정보와 문의
 
@@ -30,9 +27,8 @@ LoveShooter is a portrait 3D game by Jerome Enter. Help the otter cupid 뺘뿅�
 judge whether the feelings are sincere, and deliver heart or hate arrows. Earn in-game currency to customize
 the cupid and a cloud office, and collect memories of fictional couples you bring together.
 
-The browser demo is available above. Android and iOS releases are in preparation. Mobile editions offer optional
-rewarded ads for item refills; the browser edition does not show AdMob ads. Game progress is saved on the device
-or in browser storage, with no LoveShooter account or developer-operated cloud save service.
+Android and iOS releases are in preparation. The game is free to play, with optional rewarded ads for item refills.
+Game progress is saved on the device, with no LoveShooter account or developer-operated cloud save service.
 
 ---
 
