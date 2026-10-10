@@ -24,7 +24,7 @@ For any questions about using the app, please refer to the help section within t
 
 ## Privacy
 
-For information about local match and health data, advertising, and analytics, please see our [Privacy Policy / 개인정보처리방침](#privacy-policy).
+For information about local match and health data, advertising, and analytics, please see our [Privacy Policy](#privacy-policy).
 
 ---
 
@@ -32,14 +32,14 @@ For information about local match and health data, advertising, and analytics, p
 
 *Last updated: October 11, 2026*
 
-### 개인정보처리방침 요약
+### Privacy Policy Summary
 
-- Match Up은 계정 가입 없이 사용하는 탁구 점수판 앱입니다. 선수·클럽 정보, 경기 기록, 사용자 연습과 목소리 설정은 앱의 로컬 저장소에 보관되며, 필요한 정보는 사용자가 페어링한 iPhone과 Apple Watch 사이에서 동기화됩니다.
-- HealthKit의 심박수·운동 정보는 운동 표시와 기록 기능에 사용됩니다. Match Up은 이 건강 수치를 Google 광고나 Analytics 이벤트에 넣어 전송하지 않습니다.
-- Google AdMob의 배너·선택형 리워드 광고와 Google Analytics for Firebase는 앱·기기 식별자, IP 주소에서 추정한 대략적인 위치, 광고 조회·상호작용, 앱 사용 이벤트 및 진단 데이터를 처리할 수 있습니다. 광고·분석 데이터가 모두 익명 집계 데이터인 것은 아니며, 일부는 기기 또는 앱 설치 식별자와 연결될 수 있습니다.
-- 1.09 버전의 앱 자체 Analytics 이벤트에는 선수·클럽 이름, 사용자 작성 연습 문구, HealthKit 건강 수치가 포함되지 않습니다. SDK가 자체적으로 처리하는 식별자·사용 데이터와는 별개입니다.
-- 기록 관리에서 경기 기록을 삭제할 수 있습니다. Apple 건강 앱의 기록, 기기 백업과 Google 서비스에 저장된 데이터는 각각의 서비스 설정·정책에 따라 관리됩니다.
-- 개인정보 관련 문의: jerome.enter@gmail.com. 아래 영문 방침은 데이터 유형, 목적, 관리 방법을 자세히 설명합니다.
+- Match Up is a table tennis scoreboard app that does not require an account. Player and club information, match history, custom drills, and voice preferences are stored locally. Information needed by the app is synchronized between your paired iPhone and Apple Watch.
+- HealthKit heart rate and workout information supports workout displays and records. Match Up does not send these health readings in Google advertising or Analytics events.
+- Google AdMob banner and optional rewarded ads, and Google Analytics for Firebase, may process app or device identifiers, approximate location derived from IP addresses, advertising views and interactions, app usage events, and diagnostic data. Advertising and analytics data is not always anonymous or aggregated; some may be associated with a device or app installation identifier.
+- App-defined Analytics events in version 1.09 omit player and club names, custom drill text, and HealthKit readings. This is separate from the identifiers and usage data processed by the SDKs themselves.
+- You can delete match history in the app's record management screen. Apple Health records, device backups, and data held by Google are managed under each service's settings and policies.
+- Privacy questions: jerome.enter@gmail.com. The full policy below explains the data types, purposes, and management options in more detail.
 
 This policy describes Match Up, including its iPhone and companion Apple Watch app. It distinguishes information stored on your devices from information processed by advertising and analytics providers.
 
