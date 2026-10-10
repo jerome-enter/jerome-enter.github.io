@@ -24,61 +24,71 @@ For any questions about using the app, please refer to the help section within t
 
 ## Privacy
 
-Your privacy is important to us. Match Up handles your health and usage data in compliance with Apple's guidelines and applicable privacy laws. For detailed information, please see our [Privacy Policy](#privacy-policy).
+For information about local match and health data, advertising, and analytics, please see our [Privacy Policy / 개인정보처리방침](#privacy-policy).
 
 ---
 
 ## Privacy Policy
 
-*Updated November 21, 2024*
+*Last updated: October 11, 2026*
+
+### 개인정보처리방침 요약
+
+- Match Up은 계정 가입 없이 사용하는 탁구 점수판 앱입니다. 선수·클럽 정보, 경기 기록, 사용자 연습과 목소리 설정은 앱의 로컬 저장소에 보관되며, 필요한 정보는 사용자가 페어링한 iPhone과 Apple Watch 사이에서 동기화됩니다.
+- HealthKit의 심박수·운동 정보는 운동 표시와 기록 기능에 사용됩니다. Match Up은 이 건강 수치를 Google 광고나 Analytics 이벤트에 넣어 전송하지 않습니다.
+- Google AdMob의 배너·선택형 리워드 광고와 Google Analytics for Firebase는 앱·기기 식별자, IP 주소에서 추정한 대략적인 위치, 광고 조회·상호작용, 앱 사용 이벤트 및 진단 데이터를 처리할 수 있습니다. 광고·분석 데이터가 모두 익명 집계 데이터인 것은 아니며, 일부는 기기 또는 앱 설치 식별자와 연결될 수 있습니다.
+- 1.09 버전의 앱 자체 Analytics 이벤트에는 선수·클럽 이름, 사용자 작성 연습 문구, HealthKit 건강 수치가 포함되지 않습니다. SDK가 자체적으로 처리하는 식별자·사용 데이터와는 별개입니다.
+- 기록 관리에서 경기 기록을 삭제할 수 있습니다. Apple 건강 앱의 기록, 기기 백업과 Google 서비스에 저장된 데이터는 각각의 서비스 설정·정책에 따라 관리됩니다.
+- 개인정보 관련 문의: jerome.enter@gmail.com. 아래 영문 방침은 데이터 유형, 목적, 관리 방법을 자세히 설명합니다.
+
+This policy describes Match Up, including its iPhone and companion Apple Watch app. It distinguishes information stored on your devices from information processed by advertising and analytics providers.
+
+### Local App Data and Device Synchronization
+
+Match Up does not require a user account. Player and club information, match history, custom drills, and voice preferences are stored in the app's local storage. The app synchronizes information needed for scoring, players, drills, and workouts between your paired iPhone and Apple Watch. These local records are not uploaded to a Match Up account service.
+
+Version 1.09 migrates existing app files and preferences into a local database. This migration does not create an online account or a cloud database. You can delete individual matches, matches involving a selected player, or all match history in the app's record management screen.
 
 ### HealthKit Integration
 
-Our app integrates with HealthKit to provide features such as tracking your heart rate, calories burned, and other fitness metrics. This data is used solely for improving your experience within the app and is never shared with third parties without your explicit consent. We take your privacy seriously and handle your health data in compliance with Apple's guidelines and applicable privacy laws.
-
-*Updated September 9, 2024*
-
-This privacy policy governs your use of Match Up software (the "Software").
+With your permission, Match Up uses HealthKit for workout sessions, heart rate, calories burned, and exercise records. Match Up does not include HealthKit readings in Google advertising or Analytics events. Health permissions and records can be managed in Apple's Health and Settings apps. Apple controls any Health or device-backup synchronization you enable in its services; deleting Match Up match history does not delete those records.
 
 ### What information does the Software obtain and how is it used?
 
 **User Provided Information**
 
-We collect information you provide directly to us. For example, we collect information when you request customer support, provide any contact or identifying information or otherwise communicate with us. The types of information we may collect include your name, email address, and other contact or identifying information you choose to provide.
+If you contact us for support, we receive the email address, message, and any other information you choose to send. We use this information to respond to your request. Entering a player name in the app does not, by itself, send that name to our support service.
 
 **Automatically Collected Information**
 
-The Software uses third party services that may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile devices unique device ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browsers you use, and information about the way you use the Software.
+The app includes third-party advertising and analytics SDKs. They may process app or device identifiers, IP addresses and approximate location derived from them, device and operating-system information, advertising views and interactions, app usage events, crash information, performance measurements, and other diagnostic data. Some of this data may be associated with a device or app installation even though Match Up does not require a name or account.
 
-Third party services used in the Software are:
+Our app-defined Analytics events in version 1.09 describe screens, feature choices, action results, counts, and predefined drill codes. They omit player and club names, custom drill text, and HealthKit readings. This does not prevent the SDKs from processing their own identifiers and usage information.
+
+Third-party services used in the app include:
 - Google AdMob ([AdMob policies and restrictions](https://support.google.com/admob/answer/6128543))
 - Google Analytics for Firebase ([Google Analytics for Firebase Use Policy](https://firebase.google.com/policies/analytics))
+- Google User Messaging Platform, included with the advertising SDK for privacy messaging
+
+See [Google's Privacy Policy](https://policies.google.com/privacy) and [AdMob's iOS data disclosure](https://developers.google.com/admob/ios/privacy/data-disclosure) for the providers' data practices.
 
 ### Do third parties see and/or have access to information obtained by the Software?
 
-Only aggregated, anonymized data is periodically transmitted to external services to help us improve the Software. We will share your information with third parties only in the ways that are described in this privacy statement.
-
-We may disclose User Provided and Automatically Collected Information:
-
-- as required by law, such as to comply with a subpoena, or similar legal process;
-- when we believe in good faith that disclosure is necessary to protect our rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;
-- with our trusted services providers who work on our behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement;
-- if we are involved in a merger, acquisition, or sale of all or a portion of its assets, you will be notified via email and/or a prominent notice on our Web site of any change in ownership or uses of this information, as well as any choices you may have regarding this information;
-- to advertisers and third party advertising networks and analytics companies as described in the section below.
+Google's SDKs can receive event-level information and app or device identifiers, rather than only anonymous aggregate reports. Google processes that information under its service settings and policies. We may also disclose support information when required by law or when necessary to respond to a security incident or protect legal rights. We do not use HealthKit data for advertising or advertising measurement.
 
 ### Automatic Data Collection and Advertising
 
-The Software uses third party services for analytics and advertisement purposes. Analytic services use the information collected by the Software to help us understand how the Software is being used, such as the frequency and duration of usage, so that we can improve the Software. Advertisement services use the information collected to help us analyze and serve targeted advertising so that we can keep the cost of the Software free.
+AdMob provides banner ads and optional rewarded ads. Advertising data is used for ad delivery, measurement, performance, and fraud prevention. Analytics helps us understand which screens and features are used and whether actions succeed. Privacy messaging may use approximate location, interaction, and performance information to support its functions.
 
-If you'd like to opt-out from third party use of this type of information, please visit the section entitled "What are my opt-out rights?" below.
+Banner and rewarded are display formats; they do not, by themselves, mean that ad requests are anonymous or restricted to non-personalized advertising. Apple's tracking permission requirements and applicable Google privacy settings govern any access to advertising identifiers and tracking. The current app does not request App Tracking Transparency authorization. Association with an app or device identifier is distinct from tracking across other companies' apps and websites.
 
 ### What are my opt-out rights?
 
-You can stop all collection of information by the Software easily by uninstalling the Software. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.
+You can decline an optional rewarded ad, delete match history in the app, and manage Health and tracking permissions in Apple's settings. The current app does not provide an in-app Analytics collection switch. Uninstalling the app stops future requests from that installation; it does not automatically delete Health records, device backups, or data already held by Google. Review [Google's privacy controls](https://policies.google.com/privacy#infochoices) for information about its services.
 
 ### Data Retention Policy, Managing Your Information
 
-We will retain User Provided data for as long as you use the Software and for a reasonable time thereafter. We will retain Automatically Collected information for up to 24 months and thereafter may store it in aggregate. If you'd like us to delete User Provided Data that you have provided via the Software, please contact us at jerome.enter@gmail.com and we will respond in a reasonable time.
+Local app data remains on your devices until you delete it or remove the app, subject to Apple's backup and restore settings. Support correspondence is retained as needed to handle the request and meet applicable obligations. Advertising and Analytics data retention depends on the Google service's configuration and policies. Contact jerome.enter@gmail.com to request deletion of support information we control. We cannot remotely delete local device records or promise deletion of information independently held by another provider.
 
 ### Children
 
@@ -86,15 +96,11 @@ We do not use the Software to knowingly solicit data from or market to children 
 
 ### Security
 
-We are concerned about safeguarding the confidentiality of your information. We provide physical, electronic, and procedural safeguards to protect information we process and maintain. For example, we limit access to this information to authorized personnels who need to know that information in order to operate, develop or improve the Software. Please be aware that, although we endeavor to provide reasonable security for information we process and maintain, no security system can prevent all potential security breaches.
+Local app data uses Apple's app storage protections. Access to HealthKit requires your permission. Third-party services apply their own security controls. No storage or transmission method can guarantee absolute security.
 
 ### Changes
 
-This Privacy Policy may be updated from time to time for any reason. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
-
-### Your Consent
-
-By using the Software, you are consenting to our processing of your information as set forth in this Privacy Policy now and as amended by us. "Processing," means using cookies on a computer/hand held device or using or touching information in any way, including, but not limited to, collecting, storing, deleting, using, combining and disclosing information, all of which activities will take place in the United States. If you reside outside the United States your information will be transferred, processed and stored there under United States privacy standards.
+We may update this policy when app features or service practices change. The date above identifies the latest revision. This notice does not replace any consent or permission required by Apple's platform or applicable law. Google may process information in countries where it and its service providers operate; see its Privacy Policy for details.
 
 ### Contact Us
 
@@ -102,4 +108,4 @@ If you have any questions regarding privacy while using the Software, or have qu
 
 ---
 
-[← Back to Main Page](./README.md)
+[← Back to Main Page](../index)
